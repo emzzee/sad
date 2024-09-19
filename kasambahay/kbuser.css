@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+.card{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    margin: 15px;
+    margin-left: 180px;
+    border-radius: 10px;
+    padding-top: 0px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+     padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+
+.card .image{
+    border-radius: 50%; /* This creates the circle shape */
+    width: 100px;
+    height: 100px;
+    object-fit:fill; /* This will handle how the image fits into the container */
+    object-position: center;
+}
+
+
+
+/* Ensure the image does not stretch */
+.image img {
+    width:300px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.card #cancel-btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 123, 16);
+    color:#f2f2f2;
+    margin-bottom: 5px;
+    width: 260px;
+}
+
+.card .btn{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(16, 116, 71);
+    color:#f2f2f2;
+    margin-bottom: 5px;
+    width: 260px;
+    
+}
+
+.card #delete_user{
+    background-color: rgb(180, 0, 0);
+    
+}
+
+
+
+.card .btn:hover{
+    color:#f2f2f2;
+    background-color: rgb(34, 211, 131);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: 0.7s;
+    
+}
+
+.home-section .container .ppupdate{
+    margin-top: 20px;
+    background: rgb(243, 243, 126);
+}
+
+.home-section .card .update-text{
+    font-weight: bold;
+    color: #ffd64f;
+    font-size: 40px;
+}

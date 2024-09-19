@@ -1,0 +1,77 @@
+
+.card
+{
+    position: relative;;
+    height: 1200px;
+    z-index: -1;
+
+    
+}
+
+.card .report-inner-cards-wrapper{
+    position: relative;
+    width: 390px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card .report-inner-card{
+        padding-top: 13px;
+        padding-left: 14px;
+
+        
+}
+.card .report-inner-cards-wrapper .color-1{
+    background-color: rgb(77, 14, 249);
+    border-radius: 20px;
+    
+}
+
+.card .report-inner-cards-wrapper .color-2{
+    background-color: rgb(255, 140, 0);
+    border-radius: 20px;
+}
+.card .report-inner-cards-wrapper .color-3{
+    background-color: rgb(6, 151, 43);
+    border-radius: 20px;
+    position: relative;
+
+}
+.card .report-inner-cards-wrapper .color-4{
+    background-color: rgb(255, 59, 59);
+    border-radius: 20px;
+    position: relative;
+  
+}
+
+.card .report-inner-cards-wrapper .report-inner-card .inner-card-text .report-count {
+    text-decoration: none !important;
+    font-size: 14px;
+    color: #fff; }
+
+.card .report-inner-cards-wrapper .report-inner-card .inner-card-icon {
+    width: 62px;
+    height: 62px;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: auto; 
+position: relative;
+bottom: 40px;
+}
+
+#managepending{
+    margin-left: 12px;
+}
+
+#titlemanage{
+    margin-left: 12px;
+    font-weight: bold;
+    color: rgb(249, 179, 47);
+}

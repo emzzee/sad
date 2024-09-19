@@ -1,0 +1,34 @@
+.navbar{
+    position: relative;
+    padding: 0;
+}
+
+.navbar .container-fluid{
+
+    position: relative;
+    height: 80px;
+    background-color:rgb(235, 204, 0) ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar .logo .logo_items img{
+    
+    height: 65px;
+    width: 80px;
+}
+.navbar .logo{
+    position: absolute;
+    display: flex;
+}
+
+.navbar .logo .logo_name{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
